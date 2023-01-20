@@ -42,8 +42,7 @@ b1 = Book("title 1", "HARDCOVER")
 b2 = Book("title 2", "PAPERBACK")
 
 # TODO: use the static method to access a singleton object
-
 thebooks = Book.getbooklist()
-thebooks.append(b1);
+thebooks.append(b1)
 thebooks.append(b2)
 print(thebooks)
